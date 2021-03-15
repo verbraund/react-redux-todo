@@ -1,7 +1,7 @@
 
 import TodoCreate from './todo/form';
 import TodoList from "./todo/list";
-import TodoListAsync from "./todo/list";
+import TodoAsync from "./todo/async";
 import Theme from "./theme";
 import {connect} from "react-redux";
 
@@ -25,7 +25,7 @@ const Application = ({dark}) => {
                     <TodoList />
                 </div>
                 <div className="col-md-4">
-                    <TodoListAsync />
+                    <TodoAsync />
                 </div>
             </div>
         </div>
